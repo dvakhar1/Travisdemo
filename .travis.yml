@@ -5,11 +5,10 @@ python:
 install:
   - pip install requests
   - pip install selenium
-  - pip install behave
+  
 script:
   - calc.py
-  - python3 test_calc.py
-  - behave
-
+  - python test_calc.py
+ 
 # - pytest 
 
