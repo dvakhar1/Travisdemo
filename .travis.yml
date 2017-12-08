@@ -9,7 +9,7 @@ install:
   
 script:
   - calc.py
-  - python test_calc.py
+  - python3 test_calc.py
  
 # - pytest 
 
