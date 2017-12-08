@@ -8,8 +8,8 @@ install:
   - pip install behave
   
 script:
-  - calc.py
-  - test_calc.py
+  - python3 calc.py
+  - python3 test_calc.py
  
 # - pytest 
 
